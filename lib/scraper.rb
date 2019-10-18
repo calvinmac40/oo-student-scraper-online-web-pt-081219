@@ -5,7 +5,8 @@ require "nokogiri"
 class Scraper
 
   def self.scrape_index_page(index_page_url)
-    html = open()
+    html = open("https://learn-co-curriculum.github.io/student-scraper-test-page/index.html")
+    Nokogiri::HTML(open()
     students = []
     #index = 
   end
