@@ -2,11 +2,12 @@ require 'open-uri'
 require 'pry'
 require "nokogiri"
 
+attr_accessor :name, :location, :profile_url
+
 class Scraper
 
   def self.scrape_index_page(index_page_url)
-    html = open("https://learn-co-curriculum.github.io/student-scraper-test-page/index.html")
-    Nokogiri::HTML(open()
+     
     students = []
     #index = 
   end
