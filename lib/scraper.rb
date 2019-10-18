@@ -16,8 +16,7 @@ class Scraper
   end
 
   def self.scrape_index_page(index_page_url)
-     
-    students = []
+     students = []
     #index = 
   end
 
