@@ -2,9 +2,9 @@ require 'open-uri'
 require 'pry'
 require "nokogiri"
 
-attr_accessor :name, :location, :profile_url
-
 class Scraper
+  
+  
 
   def self.scrape_index_page(index_page_url)
      
