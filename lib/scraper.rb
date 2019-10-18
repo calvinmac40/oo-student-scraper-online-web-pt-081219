@@ -5,6 +5,7 @@ require "nokogiri"
 class Scraper
 
   def self.scrape_index_page(index_page_url)
+    html = open()
     students = []
     #index = 
   end
