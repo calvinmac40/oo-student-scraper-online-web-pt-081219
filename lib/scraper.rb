@@ -5,6 +5,7 @@ require "nokogiri"
 class Scraper
 
   def self.scrape_index_page(index_page_url)
+    
    page.css("div.student-card").each do |student|
       name = student.css(".student-name").text
       location = student.css(".student-location").text
