@@ -5,9 +5,7 @@ class Student
   @@all = []
 
   def initialize(student_hash)
-    @name = name
-    @location = location
-    @
+    
   end
 
   def self.create_from_collection(students_array)
